@@ -1,0 +1,16 @@
+.carousel-container {
+    width: 80%; /* Set the desired width of the carousel */
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden; /* Ensure images don't overflow */
+}
+
+.slick-slider {
+    position: relative;
+}
+
+.centered-image {
+    display: block; /* Make sure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    height: auto; /* Allow the image's height to adjust proportionally */
+}
